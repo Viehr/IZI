@@ -48,9 +48,6 @@ body * {
     list-style: none;
     display: flex;
 }
-.logo {
-    color: #E3B873;
-}
 .header-navigatoion_item {
     margin-right: 47px;
     font-size: 11px;
@@ -58,6 +55,9 @@ body * {
 .header-navigatoion_link {
     text-decoration: none;
     color: white;
+}
+.logo {
+    color: #E3B873;
 }
 
 .container {
@@ -181,7 +181,8 @@ h3 {
 }
 
 .right {
-    margin-top: 170px;
+    margin-top: 107px;
+    margin-left: 0px;
 }
 .imgzwei {
     width: 679px;
@@ -208,7 +209,8 @@ h3 {
     color: rgba(255, 255, 255, 0.3);    
 }
 .ulzwei {
+    list-style: none;
     display: flex;
     justify-content: space-between;
-
+    margin-left: 0px;
 }
