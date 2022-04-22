@@ -123,24 +123,7 @@ body * {
     display: flex;
     flex-direction: row;
 }
-.imgzwei {
-    width: 679px;
-    height: 482px;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-.ulzwei {
-    font-family: 'Yeseva One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    text-transform: uppercase;
 
-    
-    justify-content: flex-end;
-    align-items: flex-start;
-}
 .inline {
     display: inline;
 }
@@ -192,5 +175,40 @@ h3 {
 }
 .leftbottom {
     margin-top: 42px;
+    display: grid;
+    grid-template-columns: 190px 190px;
+    grid-template-rows: 107px 107px;
 }
 
+.right {
+    margin-top: 170px;
+}
+.imgzwei {
+    width: 679px;
+    height: 482px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.ulzweifreak {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.ulzweimouse {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);    
+}
+.ulzwei {
+    display: flex;
+    justify-content: space-between;
+
+}
