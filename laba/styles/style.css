@@ -232,6 +232,7 @@ h3 {
 
 .drei {
     margin-top: -298px;
+    display: flex;
 }
 .pdrei {
     font-family: 'Yeseva One';
@@ -249,15 +250,16 @@ h3 {
     justify-content: center;
 }
 .imgdrei {
+    background-image: url('../images/image\ 6.jpg');
     height: 434px;
     width: 817px;
-    display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 40px;
-    margin-left: 311px;
+    margin: 40px 311px 98px;
 }
 .imgdrei-overlay {
+    height: 434px;
+    width: 817px;
     content: '';
     position: absolute;
     top: 0;
@@ -265,7 +267,20 @@ h3 {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
-    margin-top: 40px;
-    margin-left: 311px;
+    margin: 0;
 }
+.zweipdrei {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+    margin-top: 0px;
+    justify-content: center;
+    height: 130px;
+    width: 681px;
+}
+
 

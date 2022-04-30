@@ -249,6 +249,7 @@ h3 {
     justify-content: center;
 }
 .imgdrei {
+    background-image: url('../images/image\ 6.jpg');
     height: 434px;
     width: 817px;
     display: flex;
@@ -267,7 +268,6 @@ h3 {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
-    margin-top: 40px;
-    margin-left: 311px;
+    margin: 0;
 }
 
