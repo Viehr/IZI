@@ -258,6 +258,8 @@ h3 {
     margin-left: 311px;
 }
 .imgdrei-overlay {
+    height: 434px;
+    width: 817px;
     content: '';
     position: absolute;
     top: 0;
