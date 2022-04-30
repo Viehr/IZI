@@ -223,5 +223,34 @@ h3 {
     margin: 0;
 }
 .sim {
-    width: 127px;
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 22px;
+
+}
+
+
+.drei {
+    margin-top: -298px;
+}
+.pdrei {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.simdrei {
+    color: #E3B873;
+    display: flex;
+    justify-content: center;
+}
+.imgdrei {
+    height: 434px;
+    width: 817px;
+    display: flex;
+    justify-content: center;
 }
