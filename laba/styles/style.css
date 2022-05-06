@@ -231,8 +231,11 @@ h3 {
 
 
 .drei {
-    margin-top: -298px;
+    margin-top: -341px;
+}
+.zweipdrei {
     display: flex;
+    justify-content: center;
 }
 .pdrei {
     font-family: 'Yeseva One';
@@ -248,14 +251,19 @@ h3 {
     color: #E3B873;
     display: flex;
     justify-content: center;
+    font-size: 30px;
+}
+.onlymargin {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .imgdrei {
     background-image: url('../images/image\ 6.jpg');
     height: 434px;
     width: 817px;
-    justify-content: center;
     position: relative;
-    margin: 40px 311px 98px;
+    margin-top: 31px;
+    margin-bottom: 98px;
 }
 .imgdrei-overlay {
     height: 434px;
@@ -269,7 +277,27 @@ h3 {
     background-color: rgba(0, 0, 0, 0.7);
     margin: 0;
 }
-.zweipdrei {
+.circle {
+    background: #E3B873;
+    border-radius: 50%;
+    border: 5px solid transparent; 
+    width: 85px;
+    height: 85px;
+    font-size: 33px;
+    position: absolute;
+    z-index: 3;
+    left: 366px;
+    top: 174px;
+    color: #FFFFFF;
+}
+hr {
+    height: 1.54px;
+    width: 55px;
+    background-color: #E3B873;
+    border-radius: 30px;
+    border: 0.5px solid transparent; 
+}
+.dreipdrei {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
@@ -278,9 +306,42 @@ h3 {
     text-align: center;
     color: #363636;
     margin-top: 0px;
-    justify-content: center;
+    margin-bottom: 0px;
     height: 130px;
     width: 681px;
 }
+.buttondrei {
+    font-size: 13px;
+}
+.dreiform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 93px;
+    margin-bottom: 35px;
+}
+.label {
+    margin-right: 53px;
+}
 
+
+
+.vierpdrei {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #181818;
+}
+.soglasie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.galochka {
+    width: 18px;
+    height: 18px;
+    margin-right: 8.62px;
+}
 
