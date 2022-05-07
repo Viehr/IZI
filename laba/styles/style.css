@@ -345,3 +345,19 @@ hr {
     margin-right: 8.62px;
 }
 
+.vier {
+    margin-top: 147px;
+}
+.pvier {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+.marginnol {
+    margin-top: 0px;
+}
