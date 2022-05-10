@@ -434,3 +434,39 @@ input:focus {
     border: 0;
     margin-top: 0;
 }
+
+.five {
+    margin-top: 124px;
+}
+.content {
+    display: flex;
+}
+.imgfive {
+    width: 703px;
+    height: 645px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.request {
+    width: 506px;
+    height: 509px;
+    background-color: #131313;
+    margin-top: 106px;
+    margin-left: 131px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+.pfive {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 28px;
+    height: 47px;
+    width: 297px;
+}
