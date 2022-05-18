@@ -320,18 +320,33 @@ hr {
     margin-top: 93px;
     margin-bottom: 35px;
 }
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    width: 231px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+  }
 .label {
-    margin-right: 53px;
+    display: flex;
+    flex-direction: column;
 }
-input {
-    outline: 0;
-    border-width: 0 0 2px;
-    border-color: blue
+label[for=name] {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
 }
-input:focus {
-    border-color: green
+.for_margin {
+    margin-left: 58px;
+    margin-right: 49px;
 }
-
 
 
 .vierpdrei {
@@ -455,8 +470,8 @@ input:focus {
     margin-left: 131px;
     margin-bottom: 300px;
     display: flex;
-    justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
 }
 .pfive {
     font-family: 'Nunito Sans';
@@ -469,4 +484,27 @@ input:focus {
     margin-top: 28px;
     height: 47px;
     width: 297px;
+    margin-bottom: 39px;
+}
+
+#phone {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: #131313;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    width: 408px;
+    margin-bottom: 48px;
+}
+label[for="phone"] {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
 }
