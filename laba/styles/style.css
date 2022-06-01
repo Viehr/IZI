@@ -625,38 +625,41 @@ height: 72px;
 }
 
 .images {
-   position: relative;
-   z-index: 2;
-}
-img[src="images/image 5 (1).jpg"] {
     position: absolute;
-    left: 587px;
-    right: 499px;
-    top: -41px;
-    width: 354px;
-    height: 557.88px;
-}
-img[src="images/image 5 (2).jpg"] {
-    position: absolute;
-    left: 587px;
-    top: 555px;
-    width: 354px;
-    height: 349px;
-}
-img[src="images/image 5 (3).jpg"] {
-    position: absolute;
-    left: 984px;
-    top: -112px;
-    width: 354px;
-    height: 275px;
-}
-img[src="images/image 5 (4).jpg"] {
-    position: absolute;
-    left: 984px;
-    top: 200px;
-    width: 354px;
-    height: 624.88px;
-}
+    z-index: 2;
+    display: grid;
+    grid-template-columns: auto auto;
+    right: 0;
+    top: -20px;
+    column-gap: 2rem;
+    margin-right: 102px;
+ }
+ img[src="images/image 5 (1).jpg"] {
+     width: 354px;
+     height: 557.88px;
+ }
+ img[src="images/image 5 (2).jpg"] {
+     /* position: absolute;
+     left: 587px;
+     top: 555px; */
+     width: 354px;
+     height: 349px;
+     margin-top:-140px;
+ 
+ }
+ img[src="images/image 5 (3).jpg"] {
+     width: 354px;
+     height: 275px;
+     margin-top: 100px;
+ }
+ img[src="images/image 5 (4).jpg"] {
+     width: 354px;
+     height: 624.88px;
+     margin-top: -315px;
+ }
+
+
+
 
 .sieben {
 
