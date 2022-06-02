@@ -543,8 +543,8 @@ label[for="phone"] {
     margin-left: 200px;
 }
 img[src="images/Group.jpg"] {
-width: 72px;
-height: 72px;
+    width: 72px;
+    height: 72px;
 }
 .zweipfive {
     width: 344px;
@@ -662,7 +662,16 @@ height: 72px;
 
 
 .sieben {
-
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fordisplay {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 39px;
 }
 .psieben {
     font-family: 'Yeseva One';
@@ -673,7 +682,159 @@ height: 72px;
     text-align: center;
     text-transform: uppercase;
     color: #181818;
+    margin: 0px;
 }
+.symbols {
+    color: #E3B873;
+    display: flex;
+    align-items: center;
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    margin-bottom: 24px;
+}
+img[src="images/Group 43.jpg"] {
+    width: 33.72px;
+    height: 28px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.zweipsieben {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+    width: 476px;
+    height: 57px;
+    margin: 0;
+}
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.portret {
+    margin-right: 85px;
+    margin-bottom: 0px;
+}
+.foto {
+    display: flex;
+    flex-direction: row;
+}
+.imgsieben {
+    margin: 0;
+    width: 76px;
+    height: 76px;
+    margin-right: 23px;
+}
+.dreipsieben {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    width: 178px;
+    height: 42px;
+}
+.vierpsieben {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+    width: 324.08px;
+    height: 216px;
+    margin-top: 22px;
+    margin-bottom: 63px;
+}
+.buttonsieben {
+    margin: 0px;
+    width: 293.75px;
+    height: 54px;
+    padding: 0;
+    border: 0;
+}
+img[src="images/Rectangle 4.22 (3).jpg"] {
+    width: 293.75px;
+    height: 54px;
+}
+img[src="images/Rectangle 4.22 (4).jpg"] {
+    width: 293.75px;
+    height: 54px;
+}
+img[src="images/Rectangle 4.22 (5).jpg"] {
+    width: 293.75px;
+    height: 54px;
+}
+
+.acht {
+    display: flex;
+    justify-content: center;
+    margin-top: 131px;
+}
+.divacht {
+    width: 883px;
+    height: 445px;
+    background-color: #181818;
+}
+.pacht {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+
+.neun {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pneun {
+    margin-top: 274px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    width: 589px;
+    height: 51px;
+}
+.foto2 {
+    display: flex;
+    justify-content: center;
+}
+img [src="images/Group 3.jpg"] {
+    width: 28px;
+    height: 28px;
+    margin-right: 15px;
+}
+img [src="images/Group 4.jpg"] {
+    width: 28px;
+    height: 28px;
+}
+.imgneun {
+    display: flex;
+    justify-content: center;
+}
+img [src="images/image 7.1.jpg"] {
+    width: 925px;
+    height: 465px;
+}
+
 
 
 
