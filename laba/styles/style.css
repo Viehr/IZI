@@ -111,10 +111,15 @@ body * {
     
 }
 
+
+
+
+
+
 .zwei {
     background-color: #131313;
     color: #FFFFFF;
-    margin: 0 auto;
+    margin: 0;
     height: 1074px;
 }
 .containerzwei {
@@ -1054,6 +1059,7 @@ footer {
         margin-top: 32px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     .button_ {
         padding: 0;
@@ -1080,4 +1086,91 @@ footer {
         color: #FFFFFF;
     }
 
+
+
+
+
+    .zwei {
+        background-color: #131313;
+        height: 841px;
+        display: block;
+    }
+    .left {
+        margin: 0;
+    }
+    .containerzwei {
+        display: block;
+    }
+    .inline {
+        display: inline-block;
+        margin-top: 36px;        
+    }
+    .tabs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h2 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        letter-spacing: -0.07em;
+        text-transform: uppercase;
+        color: #E3B873;
+        height: 66px;
+        width: 200px;
+        margin: 0;
+    }
+    .big {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 158.48%;
+        text-align: center;
+        color: #FFFFFF;
+        width: 311px;
+        height: 86px;
+        margin-top: 34px;
+        margin-bottom: 0;
+    }
+    .imgzwei {
+        width: 340px;
+        height: 241px;
+    }
+    .leftbottom {
+        margin-bottom: 58px;
+    }
+    .zweispan {
+        margin-bottom: 27px;
+    }
+    h3 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 138.6%;
+        text-transform: uppercase;
+        color: #E3B873;
+        margin: 0;
+    }
+    span {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin-top: 11px;
+        margin-bottom: 0;
+        margin-right: 0;
+        width: 100px;
+        height: 37px;
+    }
+    .sim {
+        display: none;
+    }
 }
