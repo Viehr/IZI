@@ -968,3 +968,30 @@ footer {
 
 
 
+
+
+@media screen and (min-width: 1900px) {
+    .napolnenie {
+        margin-left: 550px;
+    }
+    .zwei {
+        display: flex;
+        justify-content: center;
+    }
+    .five {
+        display: flex;
+        justify-content: center;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+@media screen and (max-width: 1000px) {
+    .hero {
+        height: 476px;
+    }
+    }
