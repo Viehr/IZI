@@ -990,8 +990,94 @@ footer {
     
     
     
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1300px) {
+    .header {
+        height: 57px;
+        display: flex;
+        align-items: center;
+    }
+    .header-navigatoion_item:not(:last-child), .header .button {
+        display: none;
+    }
+    .header-navigatoion_item:last-child .logo {
+        display: block;
+        color: #FFFFFF;
+        width: 107px;
+        height: 12;
+        padding: 0;
+    }
+    #logo {
+        margin-left: 18px;
+        width: 176px;
+        height: 12;
+    }
     .hero {
         height: 476px;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
     }
+    .napolnenie {
+        margin-left: 18px;
+        display: flex;
+        justify-content: flex-start;      
+        margin-top: 85px;
     }
+    .hero-container {
+        margin: 0;
+    }
+    .title {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 132.83%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 339px;
+        height: 60px;
+        margin-bottom: 16px;
+    }
+    .font1 {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 135.84%;
+        color: #FFFFFF;
+        width: 339px;
+        height: 94px;
+        margin: 0;
+    }
+    .button-group {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+    .button_ {
+        padding: 0;
+        margin: 0;
+        margin-top: 26px;
+        font-family: 'Nunito Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .button {
+        padding: 0;
+        width: 338px;
+        height: 61px;
+        font-family: 'Nunito Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+}
