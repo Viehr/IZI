@@ -241,7 +241,7 @@ h3 {
 .zweipdrei {
     display: flex;
     justify-content: center;
-}
+} 
 .pdrei {
     font-family: 'Yeseva One';
     font-style: normal;
@@ -261,6 +261,10 @@ h3 {
 .onlymargin {
     margin-left: 10px;
     margin-right: 10px;
+}
+.forCenter {
+    display: flex;
+    justify-content: center;
 }
 .imgdrei {
     background-image: url('../images/image\ 6.jpg');
@@ -319,12 +323,14 @@ hr {
     font-size: 13px;
 }
 .dreiform {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 93px;
     margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
 input[type=text] {
     border: none;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
@@ -372,6 +378,10 @@ label[for=name] {
     height: 18px;
     margin-right: 8.62px;
 }
+
+
+
+
 
 .vier {
     margin-top: 147px;
@@ -969,6 +979,15 @@ footer {
 
 
 
+img[src="images/Ellipse.jpg"] {
+    display: none;
+}
+img[src="images/Ellipse (2).jpg"] {
+    display: none;
+}
+
+
+
 
 
 
@@ -1092,7 +1111,7 @@ footer {
 
     .zwei {
         background-color: #131313;
-        height: 841px;
+        height: 727px;
         display: block;
     }
     .left {
@@ -1137,16 +1156,7 @@ footer {
         margin-top: 34px;
         margin-bottom: 0;
     }
-    .imgzwei {
-        width: 340px;
-        height: 241px;
-    }
-    .leftbottom {
-        margin-bottom: 58px;
-    }
-    .zweispan {
-        margin-bottom: 27px;
-    }
+
     h3 {
         font-family: 'Yeseva One';
         font-style: normal;
@@ -1157,7 +1167,18 @@ footer {
         color: #E3B873;
         margin: 0;
     }
-    span {
+    .zweispan {
+        width: 99px;
+    }
+    .leftbottom {
+        margin-left: 18px;
+        margin-top: 36px;
+        display: grid;
+        grid-template-columns: 117px 181px;
+        grid-template-rows: 95px 95px;
+        column-gap: 61px;
+    }
+    .leftbottom span {
         font-family: 'Nunito Sans';
         font-style: normal;
         font-weight: 400;
@@ -1173,4 +1194,147 @@ footer {
     .sim {
         display: none;
     }
+    .right, .imgzwei {
+        display: none;
+    }
+    .imgg {
+        margin-top: 36px;
+        background-image: url('../images/image 2.jpg');
+        width: 340px;
+        height: 241px;
+        position: relative;
+    }
+    img[src="images/Ellipse.jpg"] {
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 103px;
+        left: 14px;
+    }
+    img[src="images/Ellipse (2).jpg"] {
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 103px;
+        left: 291px;
+    }
+
+
+
+    .drei {
+        margin: 0;
+        background-color: #131313;
+    }
+    .pdrei {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 224px;
+        height: 26px;
+    }
+    .simdrei {
+        font-size: 20px;
+    }
+    .forCenter {
+        height: 207px;
+        margin-top: 40px;
+        margin-bottom: 28px;
+    }
+    .imgdrei {
+        background-image: url('../images/image\ 6.jpg');
+        width: 340px;
+        height: 207px;
+        position: relative;
+        background-size: 100% 100%;
+        margin: 0;
+    }
+    .imgdrei-overlay {
+        width: 340px;
+        height: 207px;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        margin: 0;
+        background-size: 100% 100%;
+    }
+    .circle {
+        background: #E3B873;
+        border-radius: 50%;
+        border: 5px solid transparent; 
+        width: 37px;
+        height: 37px;
+        font-size: 20px;
+        position: absolute;
+        z-index: 3;
+        left: 152px;
+        top: 85px;
+        color: #FFFFFF;
+        background-size: 100% 100%;
+    }
+    hr {
+        height: 1.54px;
+        width: 55px;
+        background-color: #E3B873;
+        border-radius: 30px;
+        border: 0.5px solid transparent;  
+    }
+    .dreipdrei { 
+        margin-top: 12px;
+        width: 340px;
+        height: 107px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 169.8%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .dreiform {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 61px;
+    }
+    input[type=text] { 
+        color: #FFFFFF;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+        background-color: #131313;
+        width: 340px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 138.72%;
+        padding: 0;
+        margin-bottom: 63px;
+    }
+    label[for=name] {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .for_margin {
+        margin-left: 58px;
+        margin-right: 49px;
+    }
+
+
+
+    
 }
