@@ -322,14 +322,20 @@ hr {
 .buttondrei {
     font-size: 13px;
 }
+
 .dreiform {
     margin-top: 93px;
     margin-bottom: 35px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
+.new-string {
+    width: 100%;
+}
+
+
 
 input[type=text] {
     border: none;
@@ -576,6 +582,12 @@ img[src="images/Group.jpg"] {
     flex-direction: row;
     justify-content: flex-end;
 }
+
+
+
+
+
+
 
 .sechs {
     margin-top: 242px;
@@ -1321,6 +1333,11 @@ img[src="images/Ellipse (2).jpg"] {
         padding: 0;
         margin-bottom: 63px;
     }
+
+    .label {
+        margin: 18px;
+        margin: 0;
+    }
     label[for=name] {
         font-family: 'Nunito Sans';
         font-style: normal;
@@ -1330,11 +1347,116 @@ img[src="images/Ellipse (2).jpg"] {
         color: rgba(255, 255, 255, 0.5);
     }
     .for_margin {
-        margin-left: 58px;
-        margin-right: 49px;
+        margin-left: 18px;
+        margin: 0;
+        margin-bottom: 12px;
+    }
+    .vierpdrei {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 163.68%;
+        color: #FFFFFF;
+    }
+    .dreiform>button {
+        order: 4;
+    }
+    .new-string {
+        display: none;
     }
 
 
 
-    
+    .vier {
+        margin-top: 83px;
+    }
+
+    .pvier {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #181818;
+        height: 26px;
+    }
+    .catalog {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 31px;
+    }
+    .imgvier {
+        width: 340px;
+        height: 365px;
+        margin-left: 18px;
+        margin-top: 0px; 
+        margin-bottom: 178px;
+    }
+    .description {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 18px;
+        margin-top: -1405px;
+
+    }
+    .rectangle {
+        margin-bottom: 302px;
+        width: 270px;
+        height: 241px;
+    }
+
+    .descriptionp {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+        color: #363636;
+        margin-top: 21px;
+        margin-bottom: 10px;
+        margin-left: 31px;
+    }
+    .descriptionul {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 169.8%;
+        color: #959595;
+        margin-bottom: 17px;
+        padding-left: 31px;
+    }
+
+
+    .buttonvier {
+        width: 190.43px;
+        height: 40px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+    }
+
+    .five {
+        display: none;
+    }
+    .sieben {
+        display: none;
+    }
+
+
+
+
+
+
+
 }
