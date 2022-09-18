@@ -1236,6 +1236,7 @@ img[src="images/Ellipse (2).jpg"] {
     .drei {
         margin: 0;
         background-color: #131313;
+        height: 846px;
     }
     .pdrei {
         font-family: 'Yeseva One';
@@ -1318,6 +1319,7 @@ img[src="images/Ellipse (2).jpg"] {
         align-items: center;
         flex-direction: column;
         margin-top: 61px;
+        margin-bottom: 0;
     }
     input[type=text] { 
         color: #FFFFFF;
@@ -1349,7 +1351,24 @@ img[src="images/Ellipse (2).jpg"] {
     .for_margin {
         margin-left: 18px;
         margin: 0;
-        margin-bottom: 12px;
+        margin-bottom: -51px;
+    }
+
+    .soglasie {
+        margin-left: -53px;
+        margin-bottom: 49px;
+    }
+    .buttondrei {
+        width: 340px;
+        height: 50px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 27px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
     }
     .vierpdrei {
         font-family: 'Nunito Sans';
@@ -1370,6 +1389,7 @@ img[src="images/Ellipse (2).jpg"] {
 
     .vier {
         margin-top: 83px;
+        height: 1681px;
     }
 
     .pvier {
@@ -1382,12 +1402,14 @@ img[src="images/Ellipse (2).jpg"] {
         text-transform: uppercase;
         color: #181818;
         height: 26px;
+        margin: 0px;
+        margin-bottom: 17px;
     }
     .catalog {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-top: 31px;
+        margin-top: 40px;
     }
     .imgvier {
         width: 340px;
@@ -1402,7 +1424,6 @@ img[src="images/Ellipse (2).jpg"] {
         flex-direction: column;
         margin-left: 18px;
         margin-top: -1405px;
-
     }
     .rectangle {
         margin-bottom: 302px;
@@ -1453,6 +1474,8 @@ img[src="images/Ellipse (2).jpg"] {
         display: none;
     }
 
+
+    
 
 
 
